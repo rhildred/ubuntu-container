@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  ubuntu:
+    build: .
+    hostname: rhlab.io
+    image: 127.0.0.1:5000/ubuntu
+    volumes:
+      - /g/userspaces/rhildred:/home/rhuser
